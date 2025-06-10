@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">YourSeatGP</string>
+    <string name="facebook_app_id">919082369553738</string>
+    <string name="fb_login_protocol_scheme">fb919082369553738</string>
+    <string name="facebook_client_token">f0fab3030d2ab32f6cc5ccde50e13f05</string>
+</resources>

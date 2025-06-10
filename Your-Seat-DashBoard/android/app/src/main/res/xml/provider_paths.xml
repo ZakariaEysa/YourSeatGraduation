@@ -1,0 +1,16 @@
+<paths xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- الوصول إلى كل الملفات في مساحة التخزين الخاصة بالتطبيق -->
+    <external-files-path name="external_files" path="." />
+
+    <!-- الوصول إلى مجلد الصور (Camera / Screenshots / WhatsApp Images وغيرها) -->
+    <external-files-path name="external_images" path="Pictures/" />
+
+    <!-- الوصول إلى مجلد الكاميرا DCIM -->
+    <external-files-path name="dcim_images" path="DCIM/" />
+
+    <!-- الوصول إلى مجلد التنزيلات (Downloads) -->
+    <external-files-path name="downloads" path="Download/" />
+
+    <!-- الوصول إلى ملفات الكاش الخارجية للتطبيق -->
+    <external-cache-path name="cache_files" path="." />
+</paths>

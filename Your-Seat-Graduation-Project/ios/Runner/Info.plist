@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>CFBundleLocalizations</key>
+    <array>
+        <string>en</string>
+        <string>de</string>
+    </array>
+    <key>CFBundleDevelopmentRegion</key>
+    <string>en</string> <!-- Assuming 'en' as the development language -->
+    <key>CFBundleDisplayName</key>
+    <string>YourSeatGraduationProject</string>
+    <key>CFBundleExecutable</key>
+    <string>YourSeatGraduationProject</string> <!-- Replace with the actual executable name -->
+    <key>CFBundleIdentifier</key>
+    <string>com.yourseatgraduationproject</string> <!-- Replace with your app's bundle identifier -->
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.0</string>
+    <key>CFBundleName</key>
+    <string>YourSeat</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>CFBundleShortVersionString</key>
+    <string>1.0.0</string> <!-- Replace with your app's version -->
+    <key>CFBundleVersion</key>
+    <string>1</string> <!-- Replace with your app's build number -->
+    <key>CFBundleSignature</key>
+    <string>????</string> <!-- This can remain as is unless you have a specific signature -->
+    <key>LSRequiresIPhoneOS</key>
+    <true/>
+    <key>UIMainStoryboardFile</key>
+    <string>Main</string> <!-- Replace if you are using another file as the main storyboard -->
+    <key>UISupportedInterfaceOrientations</key>
+    <array>
+        <string>UIInterfaceOrientationPortrait</string>
+        <string>UIInterfaceOrientationLandscapeLeft</string>
+        <string>UIInterfaceOrientationLandscapeRight</string>
+    </array>
+    <key>UISupportedInterfaceOrientations~ipad</key>
+    <array>
+        <string>UIInterfaceOrientationPortrait</string>
+        <string>UIInterfaceOrientationPortraitUpsideDown</string>
+        <string>UIInterfaceOrientationLandscapeLeft</string>
+        <string>UIInterfaceOrientationLandscapeRight</string>
+    </array>
+    <key>CADisableMinimumFrameDurationOnPhone</key>
+    <true/>
+    <key>UIApplicationSupportsIndirectInputEvents</key>
+    <true/>
+
+    <!-- السماح باستخدام روابط الاتصال والبريد -->
+    <key>LSApplicationQueriesSchemes</key>
+    <array>
+        <string>mailto</string> <!-- للبريد الإلكتروني -->
+        <string>tel</string> <!-- للاتصال برقم الهاتف -->
+        <string>http</string> <!-- للروابط العادية -->
+        <string>https</string> <!-- للروابط الآمنة -->
+    </array>
+
+    <!-- إعداد المتصفحات الافتراضية -->
+    <key>NSAppTransportSecurity</key>
+    <dict>
+        <key>NSAllowsArbitraryLoads</key>
+        <true/> <!-- السماح بفتح أي رابط بدون قيود -->
+    </dict>
+</dict>
+</plist>

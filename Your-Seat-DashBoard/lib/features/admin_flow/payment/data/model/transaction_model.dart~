@@ -1,0 +1,165 @@
+// Full Dart model for Paymob Transaction using Equatable and Null Safety
+
+import 'package:equatable/equatable.dart';
+
+class PaymobTransaction extends Equatable {
+  final int id;
+  final bool pending;
+  final int amountCents;
+  final bool success;
+  final bool isAuth;
+  final bool isCapture;
+  final bool isStandalonePayment;
+  final bool isVoided;
+  final bool isRefunded;
+  final bool is3dSecure;
+  final int integrationId;
+  final Order? order;
+  final String currency;
+  final bool isCashout;
+  final bool isUpg;
+  final bool isInternalRefund;
+  final BillingData? billingData;
+  final String? cardType;
+  final int originalAmount;
+  final String paymentSource;
+  final bool isVoid;
+  final bool isRefund;
+  final bool isHidden;
+  final bool errorOccurred;
+  final bool isLive;
+  final bool isCaptured;
+  final int capturedAmount;
+  final int refundedAmountCents;
+  final DateTime? updatedAt;
+
+  const PaymobTransaction({
+    required this.id,
+    required this.pending,
+    required this.amountCents,
+    required this.success,
+    required this.isAuth,
+    required this.isCapture,
+    required this.isStandalonePayment,
+    required this.isVoided,
+    required this.isRefunded,
+    required this.is3dSecure,
+    required this.integrationId,
+    required this.order,
+    required this.currency,
+    required this.isCashout,
+    required this.isUpg,
+    required this.isInternalRefund,
+    required this.billingData,
+    required this.cardType,
+    required this.originalAmount,
+    required this.paymentSource,
+    required this.isVoid,
+    required this.isRefund,
+    required this.isHidden,
+    required this.errorOccurred,
+    required this.isLive,
+    required this.isCaptured,
+    required this.capturedAmount,
+    required this.refundedAmountCents,
+    required this.updatedAt,
+  });
+
+  factory PaymobTransaction.fromJson(Map<String, dynamic> json) {
+    return PaymobTransaction(
+      id: json['id'],
+      pending: json['pending'],
+      amountCents: json['amount_cents'],
+      success: json['success'],
+      isAuth: json['is_auth'],
+      isCapture: json['is_capture'],
+      isStandalonePayment: json['is_standalone_payment'],
+      isVoided: json['is_voided'],
+      isRefunded: json['is_refunded'],
+      is3dSecure: json['is_3d_secure'],
+      integrationId: json['integration_id'],
+      order: json['order'] != null ? Order.fromJson(json['order']) : null,
+      currency: json['currency'],
+      isCashout: json['is_cashout'],
+      isUpg: json['is_upg'],
+      isInternalRefund: json['is_internal_refund'],
+      billingData: json['billing_data'] != null
+          ? BillingData.fromJson(json['billing_data'])
+          : null,
+      cardType: json['card_type'],
+      originalAmount: json['original_amount'],
+      paymentSource: json['payment_source'],
+      isVoid: json['is_void'],
+      isRefund: json['is_refund'],
+      isHidden: json['is_hidden'],
+      errorOccurred: json['error_occured'],
+      isLive: json['is_live'],
+      isCaptured: json['is_captured'],
+      capturedAmount: json['captured_amount'],
+      refundedAmountCents: json['refunded_amount_cents'],
+      updatedAt: json['updated_at'] != null
+          ? DateTime.parse(json['updated_at'])
+          : null,
+    );
+  }
+
+  @override
+  List<Object?> get props => [
+        id,
+        pending,
+        amountCents,
+        success,
+        isAuth,
+        isCapture,
+        isStandalonePayment,
+        isVoided,
+        isRefunded,
+        is3dSecure,
+        integrationId,
+        order,
+        currency,
+        isCashout,
+        isUpg,
+        isInternalRefund,
+        billingData,
+        cardType,
+        originalAmount,
+        paymentSource,
+        isVoid,
+        isRefund,
+        isHidden,
+        errorOccurred,
+        isLive,
+        isCaptured,
+        capturedAmount,
+        refundedAmountCents,
+        updatedAt,
+      ];
+}
+
+
+class BillingData extends Equatable {
+  final String firstName;
+  final String lastName;
+  final String email;
+  final int transactionId;
+
+  const BillingData({
+    required this.firstName,
+    required this.lastName,
+    required this.email,
+    required this.transactionId,
+  });
+
+  factory BillingData.fromJson(Map<String, dynamic> json) {
+    return BillingData(
+      firstName: json['first_name'],
+      lastName: json['last_name'],
+      email: json['email'],
+      transactionId: json['transaction_id'],
+    );
+  }
+
+  @override
+  List<Object?> get props => [firstName, lastName, email, transactionId];
+}

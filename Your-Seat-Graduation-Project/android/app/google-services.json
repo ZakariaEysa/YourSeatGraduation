@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "556627768143",
+    "project_id": "yourseatgraduationprojec-19068",
+    "storage_bucket": "yourseatgraduationprojec-19068.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:556627768143:android:f217ff5d7d11f450b5cb3a",
+        "android_client_info": {
+          "package_name": "com.example.yourseatgraduationproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "556627768143-fuso7ld24c5u9ltapfpgg3rkp7k9nd16.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.yourseatgraduationproject",
+            "certificate_hash": "6a41de581b9d851c281e3878172064e0ae064ac8"
+          }
+        },
+        {
+          "client_id": "556627768143-o18vdv9t5ij9pgoeoud3ji2a4lnd4pnf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCREJCsFWlgq_kon3J8_Eu_mhvL0PUNGjs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "556627768143-o18vdv9t5ij9pgoeoud3ji2a4lnd4pnf.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "556627768143-rqu7j4ss5b3iqkflbjkgv39mfm42j5r3.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.yourseatgraduationproject"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
