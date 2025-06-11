@@ -1,3 +1,21 @@
+# 🎬 YourSeat – Smart Ticket Reservation & Movie Recommendation Platform
+
+YourSeat is an intelligent, end-to-end cinema booking and recommendation platform. It combines a user-friendly mobile application and a powerful admin dashboard to deliver an enhanced movie-going experience.
+
+Users can:
+- Discover personalized movie recommendations through an AI engine.
+- Browse movies showing in multiple cinemas.
+- View cinema locations using integrated Google Maps.
+- Book tickets directly within the app.
+- Complete secure payments through the integrated gateway.
+
+Admins can:
+- Manage cinema data, schedules, movies, and users.
+- Track system analytics and performance.
+- Access everything through a responsive web dashboard.
+
+The AI model is deployed via Flask and serves personalized movie recommendations based on user preferences and behavior.
+
 
 ## 📦 Project Content
 
@@ -21,7 +39,7 @@
 
 ## 🖥️ Admin Dashboard
 
-- Control panel for managing users and AI results.
+- Control panel for managing Cinema data and movies.
 - Includes analytics, user data, and status tracking.
 - Responsive and expandable layout.
 
@@ -33,11 +51,20 @@
 
 ---
 
-## 🤖 AI Module – Before & After
+## 🤖 AI Module – Movie Recommendation Engine
 
-- Handles image processing (Before/After).
-- Can be integrated into mobile or web via API.
-- Built for performance and scalability.
+- A machine learning model that generates personalized movie recommendations.
+- Initially developed as a standalone recommendation system (Before integration).
+- Later converted into a Flask-based API (After integration) for deployment and real-time use.
+- The module is fully deployed and optimized for real-time responses.
+
+## 📌 Notes
+
+- Each module is standalone and reusable.
+- The AI system is modular and easily integrable.
+- The project follows Clean Architecture (especially for the mobile app).
+- All files are uploaded and documented for demo and review.
+
 
 ---
 
@@ -84,24 +111,20 @@ You can explore the system architecture, user flow, and backend structure throug
 
 ---
 
-## ✅ Features
+## ✅ Key Features
 
-- Authentication (Sign In / Sign Up)
-- AI Image Processing (Before/After)
-- Admin Panel with User Management
-- Reusable Architecture (Clean Code)
-- Fully Responsive UI (Mobile & Web)
+### 👤 User Side (Mobile App)
+- User authentication (Sign In / Sign Up)
+- Personalized movie recommendations (AI-powered)
+- Browse multiple cinemas and available movies
+- View cinema location on Google Maps
+- Book movie tickets
+- Online payment integration (e.g. PayMob )
 
----
-
-
-
-
-## 📌 Notes
-
-- Each module is standalone and reusable.
-- The AI system is modular and easily integrable.
-- The project follows Clean Architecture (especially for the mobile app).
-- All files are uploaded and documented for demo and review.
+### 🛠️ Admin Side (Dashboard)
+- Manage cinemas, movies, and schedules
+- View and manage registered users
+- Access system-wide analytics
+- Real-time updates and controls
 
 ---
