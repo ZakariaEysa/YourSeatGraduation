@@ -60,6 +60,13 @@
 - 🔗 **Demo Link**: [View  Demo](https://68497e74fed24f00084e58cf--delightful-flan-f3f749.netlify.app/)
 - Through this demo, you can experience the core features of the application, download and test it on your device, and access the admin dashboard to explore how the system works behind the scenes.
 
+---
+
+## 🧩 System Architecture & Diagrams
+
+You can explore the system architecture, user flow, and backend structure through the following diagrams:
+
+👉 [**View Project Diagrams**](https://drive.google.com/drive/u/1/folders/1qa7Uiw_oz1YKjl9LlEzJz9DQqNGrKhRh)
 
 
 ---
