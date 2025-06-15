@@ -71,7 +71,7 @@ The AI model is deployed via Flask and serves personalized movie recommendations
 ## 📄 Documentation & 🎤 Presentation
 
 - 📘 **Documentation**: [View Docs](https://link-to-your-documentation.com)  
-- 🖥️ **Presentation Slides**: [View Slides](https://link-to-your-presentation.com)
+- 🖥️ **Presentation Slides**: [View Slides](https://drive.google.com/drive/folders/1voCmEpRa6L3JKt3OVKXpv7VLCH5r9T-8?usp=sharing)
 
 ---
 
