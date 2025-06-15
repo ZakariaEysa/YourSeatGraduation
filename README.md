@@ -70,7 +70,7 @@ The AI model is deployed via Flask and serves personalized movie recommendations
 
 ## 📄 Documentation & 🎤 Presentation
 
-- 📘 **Documentation**: [View Docs](https://link-to-your-documentation.com)  
+- 📘 **Documentation**: [View Docs](https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fraw.githubusercontent.com%2FZakariaEysa%2FYourSeatGraduation%2Frefs%2Fheads%2Fmain%2FEgyptian%2520E%2520.docx&wdOrigin=BROWSELINK)  
 - 🖥️ **Presentation Slides**: [View Slides](https://drive.google.com/drive/folders/1voCmEpRa6L3JKt3OVKXpv7VLCH5r9T-8?usp=sharing)
 
 ---
